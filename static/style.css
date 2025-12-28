@@ -1,0 +1,32 @@
+footer{
+    background-color: #111010;
+    color: aliceblue;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: 'Darker Grotesque', sans-serif;
+}
+h3,h4,h5,h6,p,a,button{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    width: auto;
+    min-height:410px;
+}
+
+.footerstyling{
+width: 100%;
+min-height: 90px;
+background-color: black;
+}
+.socialList{
+    line-height:5;
+}
+.social{
+    position: fixed;
+    margin-left: 93%;
+    bottom: 12%;
+}

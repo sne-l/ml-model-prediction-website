@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<center>
+    <br><br>
+<h1>Hello Busy Bud!!</h1><br>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vero laborum, doloremque quo ducimus illum perspiciatis facere, facilis unde omnis debitis! Ipsum voluptatem accusantium consequuntur libero optio quas, expedita eaque!
+</p>
+<div class="row">
+   <div class="col-12">
+        <form action="/predict" method="post">
+        <textarea name="inputtext" placeholder="Enter text to be paraphrased" rows="11" cols="130"></textarea>
+        <br><br>
+        <button type="submit" class="btn btn-light btn-lg">Submit</button><br><br>
+        </form>
+    </div>
+</div>
+</center>
+{% endblock %}
